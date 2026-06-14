@@ -1,17 +1,35 @@
-# weather_travel_app
+# Weather Travel App
 
-A new Flutter project.
+A cross-platform weather and travel application built with Flutter.
+
+## Features
+- Real-time weather information
+- Travel planning assistance
+- Supports Android, iOS, Web, Windows, Linux and macOS
+
+## Tech Stack
+Framework: Flutter
+Language: Dart
+Platforms: Android, iOS, Web, Desktop
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK installed
+- Dart SDK
 
-A few resources to get you started if this is your first Flutter project:
+### Run the app
+flutter pub get
+flutter run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Run on specific platform
+flutter run -d chrome        (web)
+flutter run -d android       (android)
+flutter run -d windows       (windows)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+lib/          - Main app source code
+android/      - Android specific files
+ios/          - iOS specific files
+web/          - Web specific files
+windows/      - Windows specific files
